@@ -1,0 +1,11 @@
+prefix=/Users/admin/XCodeProjects2/linphone-iphone/submodules/build/..//../liblinphone-sdk/i386-apple-darwin
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: x264
+Description: H.264 (MPEG4 AVC) encoder library
+Version: 0.128.1036M 84a8e87
+Libs: -L${exec_prefix}/lib -lx264
+Libs.private: -lpthread -lm
+Cflags: -I${prefix}/include
